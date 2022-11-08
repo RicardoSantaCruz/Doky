@@ -1,0 +1,124 @@
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: #ff7f50;
+}
+
+header {
+    background-color: #7ac034;
+    border: 1px solid #777777;
+}
+
+header,
+nav,
+aside,
+#contenedor article,
+#contenido aside,
+footer {
+    border: 2px solid #777777;
+}
+
+ul,
+ul,
+li {
+    margin-left: 15px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    background-color: #6495ed;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+    background-color: #8fbc8f;
+}
+
+#contenido article {
+    float: left;
+    width: 73%;
+    background-color: #7fffd4;
+}
+
+#contenido aside {
+    float: right;
+    width: 20%;
+}
+
+#contenido article header {
+    background-color: transparent;
+    border: none;
+}
+
+#contenido section img {
+    width: 100px;
+    float: left;
+}
+
+header #logo {
+    float: left;
+}
+
+header #buscador {
+    float: right;
+}
+
+nav ul#menu_principal li {
+    display: inline;
+    float: left;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cbcdc8;
+}
+
+footer {
+    padding: 0.5em;
+    margin-top: 1em;
+    border-top: 1px solid #c5c5c5;
+    background-color: #ff7f50;
+}
+
+footer .enlaces {
+    float: left;
+}
+
+footer .copyrithg {
+    float: right;
+}
+
+article {
+    margin-bottom: 1em;
+}
+
+article section img {
+    margin: 0.5em;
+}
